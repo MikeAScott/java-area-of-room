@@ -1,5 +1,9 @@
 Area of a Rectangular Room
 ==========================
+A simple app for introducing Java programming
+
+Requirements
+-----------
 When working in a global environment, you’ll have to present information in both metric and Imperial units. And you’ll need to know when to do the conversion to ensure the most accurate results.
 
 Create a program that calculates the area of a room. Prompt the user for the length and width of the room in feet. Then display the area in both square feet and square meters.
@@ -23,7 +27,26 @@ Constraints
 * Keep the calculations separate from the output.
 * Use a constant to hold the conversion factor.
 
-
 Time
 ----
 15 minutes
+
+Prerequisites
+-------------
+* Java JDK v13
+* Maven
+
+To Run
+------
+From the command line:
+
+Windows
+```
+run.bat
+``` 
+Linux / Mac
+```
+./run.sh
+```
+
+Or run in your Java IDE
